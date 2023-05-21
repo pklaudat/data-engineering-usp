@@ -78,7 +78,7 @@ export class DynamoDbStack extends cdk.Stack {
           tableName: tableName,
           attributeDefinitions: tableData.attributeDefinitions,
           keySchema: tableData.keySchema,
-          billingMode: 'PAY_PER_REQUEST',
+          //billingMode: 'PAY_PER_REQUEST',
           timeToLiveSpecification: {
             attributeName: 'ttl',
             enabled: true,
@@ -90,7 +90,7 @@ export class DynamoDbStack extends cdk.Stack {
             sseEnabled: true,
           },
           provisionedThroughput: {
-            readCapacityUnits: 5,
+            readCapacityUnits: 10,
             writeCapacityUnits: 5,
           },
         };
