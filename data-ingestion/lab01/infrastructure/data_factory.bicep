@@ -3,6 +3,7 @@
 param location string = resourceGroup().location
 param factoryName string = 'data-factory-${subscription().subscriptionId}'
 param managedIdentityName string
+param storageAccountEndpoint string
 
 
 var storageAccountDataReaderRoleId = '2a2b9908-6ea1-4ae2-8e65-a410df84e7d1'
@@ -19,7 +20,6 @@ resource managedIdentity 'Microsoft.ManagedIdentity/userAssignedIdentities@2018-
     project: 'Data Factory'
   }
 }
-
 
 resource datafactory 'Microsoft.DataFactory/factories@2018-06-01' = {
   name: factoryName
@@ -47,3 +47,34 @@ resource roleAssignments 'Microsoft.Authorization/roleAssignments@2022-04-01' = 
     datafactory
   ]
 }]
+
+
+resource credential 'Microsoft.DataFactory/factories/credentials@2018-06-01' = {
+  name: '${factoryName}-credential'
+  parent: datafactory
+  properties: {
+    type: 'ManagedIdentity'
+    typeProperties: {
+      resourceId: managedIdentity.id
+    }
+  }
+  dependsOn: [
+    roleAssignments
+  ]
+}
+
+resource dataIn 'Microsoft.DataFactory/factories/linkedservices@2018-06-01' = {
+  name: '${factoryName}-dataIn'
+  parent: datafactory
+  properties: {
+    type: 'AzureBlobStorage'
+    typeProperties: {
+      serviceEndpoint: storageAccountEndpoint
+      credential: {
+        referenceName: 'data-factory-${subscription().id}-credential'
+        type: 'ManagedIdentity'
+      }
+      accountKind: 'StorageV2'
+    }
+  }
+}

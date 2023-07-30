@@ -38,5 +38,6 @@ module dataFactory 'infrastructure/data_factory.bicep' = {
   params: {
     location: location
     managedIdentityName: managedIdentityName
+    storageAccountEndpoint: sourceOfData.outputs.serviceEndpoint
   }
 }
