@@ -1,14 +1,15 @@
 targetScope = 'subscription'
 
-
 param name string
 param managedIdentityName string = 'managedIdentity${name}'
 param storageAccountName string = 'storageacc${name}'
+param factoryName string = 'data-factory-${subscription().subscriptionId}'
 param sqlServerName string = 'sqlserver${name}'
 param sqlUser string
 @secure()
 param sqlPassword string
 param location string
+
 
 resource rg 'Microsoft.Resources/resourceGroups@2022-09-01' = {
   name: 'rg-adf-${name}-workspace'
@@ -28,7 +29,7 @@ module sourceOfData 'infrastructure/storage.bicep' = {
     sqlUser: sqlUser
     sqlPassword: sqlPassword
     sqlServerName: sqlServerName
-
+    managedIdentityName: managedIdentityName
   }
 }
 
@@ -39,5 +40,19 @@ module dataFactory 'infrastructure/data_factory.bicep' = {
     location: location
     managedIdentityName: managedIdentityName
     storageAccountEndpoint: sourceOfData.outputs.serviceEndpoint
+    sqlServerName: sqlServerName
+    factoryName: factoryName
+  }
+  dependsOn: [
+    sourceOfData
+  ]
+}
+
+module etlPipeline 'infrastructure/etl_pipeline.bicep' = {
+  name: 'etl-pipeline'
+  scope: rg
+  params: {
+    dataFactoryName: factoryName
+    location: location
   }
 }
