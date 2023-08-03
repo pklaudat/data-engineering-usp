@@ -5,9 +5,11 @@ param managedIdentityName string = 'managedIdentity${name}'
 param storageAccountName string = 'storageacc${name}'
 param factoryName string = 'data-factory-${subscription().subscriptionId}'
 param sqlServerName string = 'sqlserver${name}'
-param sqlUser string
 @secure()
-param sqlPassword string
+param sqlSid string
+// param sqlUser string
+// @secure()
+// param sqlPassword string
 param location string
 
 
@@ -26,8 +28,7 @@ module sourceOfData 'infrastructure/storage.bicep' = {
   params: {
     storageAccountName: storageAccountName
     location: location
-    sqlUser: sqlUser
-    sqlPassword: sqlPassword
+    sqlSid: sqlSid
     sqlServerName: sqlServerName
     managedIdentityName: managedIdentityName
   }
@@ -55,4 +56,8 @@ module etlPipeline 'infrastructure/etl_pipeline.bicep' = {
     dataFactoryName: factoryName
     location: location
   }
+  dependsOn: [
+    sourceOfData
+    dataFactory
+  ]
 }

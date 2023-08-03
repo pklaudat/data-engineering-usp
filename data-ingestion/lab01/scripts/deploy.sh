@@ -1,0 +1,1 @@
+ az deployment sub create -f ..\adf_workspace.bicep -p ..\configuration\config.bicepparam -l eastus2

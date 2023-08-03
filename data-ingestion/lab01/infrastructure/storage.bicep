@@ -1,9 +1,11 @@
 param storageAccountName string
 param sqlServerName string
+// @secure()
+// param sqlUser string 
+// @secure()
+// param sqlPassword string
 @secure()
-param sqlUser string 
-@secure()
-param sqlPassword string
+param sqlSid string
 param location string = resourceGroup().location
 param managedIdentityName string
 
@@ -34,9 +36,17 @@ resource sqlServer 'Microsoft.Sql/servers@2022-11-01-preview' = {
   }
   properties: {
     primaryUserAssignedIdentityId: managedIdentity.id
-    administratorLogin: sqlUser
-    administratorLoginPassword: sqlPassword
+    // administratorLogin: sqlUser
+    // administratorLoginPassword: sqlPassword
     minimalTlsVersion: '1.2'
+    administrators: {
+      login: 'sqladmin'
+      sid: sqlSid //'1b8bec2c-9878-45d5-87cf-b161d55d16e7'
+      administratorType: 'ActiveDirectory'
+      azureADOnlyAuthentication: true
+      tenantId: subscription().tenantId
+    }
+    publicNetworkAccess: 'Enabled'
   }
 }
 
