@@ -55,6 +55,8 @@ module etlPipeline 'infrastructure/etl_pipeline.bicep' = {
   params: {
     dataFactoryName: factoryName
     location: location
+    serviceLinkOutput: dataFactory.outputs.serviceLinkOutput
+    serviceLinkSource: dataFactory.outputs.serviceLinkSource
   }
   dependsOn: [
     sourceOfData
