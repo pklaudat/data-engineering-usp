@@ -68,3 +68,6 @@ resource dataOutLinkedConnection 'Microsoft.DataFactory/factories/linkedservices
     }
   }
 }
+
+output serviceLinkOutput string = dataOutLinkedConnection.name
+output serviceLinkSource string = dataInLinkedConnection.name
