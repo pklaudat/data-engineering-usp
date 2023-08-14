@@ -1,4 +1,4 @@
-Ano,Trimestre,Categoria,Tipo,CNPJ IF,Instituição financeira,Índice,Quantidade de reclamações reguladas procedentes,Quantidade de reclamações reguladas - outras,Quantidade de reclamações não reguladas,Quantidade total de reclamações,Quantidade total de clientes % CSS e SCR,Quantidade de clientes % CSS,Quantidade de clientes % SCR
+Ano,Trimestre,Categoria,Tipo,CNPJ IF,Instituição financeira,Índice,Quantidade de reclamações reguladas procedentes,Quantidade de reclamações reguladas - outras,Quantidade de reclamações não reguladas,Quantidade total de reclamações,Quantidade total de clientes – CCS e SCR,Quantidade de clientes – CCS,Quantidade de clientes – SCR
 2021,3º,Demais bancos e financeiras,Conglomerado,,ABC-BRASIL (conglomerado),,1,2,1,4,29707,28217,4009
 2021,3º,Demais bancos e financeiras,Conglomerado,,AGIBANK (conglomerado),"82,54",109,296,107,512,1320447,999951,873341
 2021,3º,Demais bancos e financeiras,Banco/financeira,36321990,"AGORACRED S/A SOCIEDADE DE CRÉDITO, FINANCIAMENTO E INVESTIMENTO",,3,1,2,6,453405,130,453275
@@ -27,7 +27,7 @@ Ano,Trimestre,Categoria,Tipo,CNPJ IF,Instituição financeira,Índice,Quantidade
 2021,3º,Demais bancos e financeiras,Banco/financeira,795423,BANCO SEMEAR S.A.,,2,2,0,4,270979,3638,267795
 2021,3º,Demais bancos e financeiras,Banco/financeira,11970623,BANCO SENFF S.A.,,1,4,1,6,109166,40042,70102
 2021,3º,Demais bancos e financeiras,Conglomerado,,BANCO SICOOB (conglomerado),,21,26,6,53,5047970,2390217,3240987
-2021,3º,Demais bancos e financeiras,Banco/financeira,7679404,BANCO TOP�ZIO S.A.,,4,5,2,11,43686,15291,30304
+2021,3º,Demais bancos e financeiras,Banco/financeira,7679404,BANCO TOPÁZIO S.A.,,4,5,2,11,43686,15291,30304
 2021,3º,Demais bancos e financeiras,Banco/financeira,3215790,BANCO TOYOTA DO BRASIL S.A.,,1,4,3,8,155981,15264,141643
 2021,3º,Demais bancos e financeiras,Banco/financeira,17351180,BANCO TRIANGULO S.A.,,10,15,6,31,2025332,439855,1847196
 2021,3º,Demais bancos e financeiras,Conglomerado,,BANESTES (conglomerado),,17,35,21,73,1345235,1295217,477798
@@ -62,7 +62,7 @@ Ano,Trimestre,Categoria,Tipo,CNPJ IF,Instituição financeira,Índice,Quantidade
 2021,3º,Demais bancos e financeiras,Conglomerado,,GRUPO ZEMA (conglomerado),,1,4,4,9,461496,577,460937
 2021,3º,Demais bancos e financeiras,Conglomerado,,HERVAL - HS (conglomerado),,10,1,3,14,219957,22813,202041
 2021,3º,Demais bancos e financeiras,Conglomerado,,HONDA (conglomerado),,5,7,7,19,428225,106,428199
-2021,3º,Demais bancos e financeiras,Banco/financeira,17453575,ICBC DO BRASIL BANCO M�LTIPLO S.A.,,0,1,0,1,187,175,24
+2021,3º,Demais bancos e financeiras,Banco/financeira,17453575,ICBC DO BRASIL BANCO MÚLTIPLO S.A.,,0,1,0,1,187,175,24
 2021,3º,Demais bancos e financeiras,Conglomerado,,INDUSTRIAL DO BRASIL (conglomerado),,10,18,4,32,63911,4519,60187
 2021,3º,Top 10 - Bancos e Financeiras,Conglomerado,,INTER (conglomerado),"55,99",746,732,298,1776,13323223,13217210,1954815
 2021,3º,Top 10 - Bancos e Financeiras,Conglomerado,,ITAU (conglomerado),"15,05",1318,3194,2338,6850,87568455,68959837,50906457
@@ -77,12 +77,12 @@ Ano,Trimestre,Categoria,Tipo,CNPJ IF,Instituição financeira,Índice,Quantidade
 2021,3º,Demais bancos e financeiras,Banco/financeira,9464032,"MIDWAY S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO",,22,102,52,176,10572319,286354,10523154
 2021,3º,Demais bancos e financeiras,Conglomerado,,MODAL (conglomerado),,21,31,8,60,1304283,1304119,33167
 2021,3º,Demais bancos e financeiras,Banco/financeira,4379829,"NEGRESCO S.A. - CREDITO, FINANCIAMENTO E INVESTIMENTOS",,0,1,0,1,434448,677,433771
-2021,3º,Demais bancos e financeiras,Banco/financeira,74828799,NOVO BANCO CONTINENTAL S.A. - BANCO M�LTIPLO,,5,29,0,34,99651,3135,96953
+2021,3º,Demais bancos e financeiras,Banco/financeira,74828799,NOVO BANCO CONTINENTAL S.A. - BANCO MÚLTIPLO,,5,29,0,34,99651,3135,96953
 2021,3º,Top 10 - Bancos e Financeiras,Conglomerado,,NUBANK (conglomerado),"0,13",3,18,17,38,22267718,20581767,3601628
 2021,3º,Demais bancos e financeiras,Conglomerado,,OMNI (conglomerado),,17,60,67,144,5281196,165744,5129818
 2021,3º,Demais bancos e financeiras,Conglomerado,,ORIGINAL (conglomerado),"47,03",265,369,212,846,5634279,4365122,2051035
 2021,3º,Demais bancos e financeiras,Conglomerado,,PAGBANK-PAGSEGURO (conglomerado),,5,4,2,11,3342281,3335727,7063
-2021,3º,Demais bancos e financeiras,Conglomerado,,PARAN� BANCO (conglomerado),"193,45",94,412,20,526,485895,10034,476123
+2021,3º,Demais bancos e financeiras,Conglomerado,,PARANÁ BANCO (conglomerado),"193,45",94,412,20,526,485895,10034,476123
 2021,3º,Demais bancos e financeiras,Banco/financeira,3311443,"PARATI - CREDITO, FINANCIAMENTO E INVESTIMENTO S.A.","14.015,05",54,21,1,76,3853,,3853
 2021,3º,Demais bancos e financeiras,Banco/financeira,43180355,"PEFISA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO","12,79",87,59,22,168,6798337,6588214,2507474
 2021,3º,Demais bancos e financeiras,Conglomerado,,PINE (conglomerado),,3,3,0,6,12869,10925,2618

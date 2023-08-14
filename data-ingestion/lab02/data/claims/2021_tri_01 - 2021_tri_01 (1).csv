@@ -1,4 +1,4 @@
-Ano,Trimestre,Categoria,Tipo,CNPJ IF,Instituição financeira,Índice,Quantidade de reclamações reguladas procedentes,Quantidade de reclamações reguladas - outras,Quantidade de reclamações não reguladas,Quantidade total de reclamações,Quantidade total de clientes % CSS e SCR,Quantidade de clientes % CSS,Quantidade de clientes % SCR
+Ano,Trimestre,Categoria,Tipo,CNPJ IF,Instituição financeira,Índice,Quantidade de reclamações reguladas procedentes,Quantidade de reclamações reguladas - outras,Quantidade de reclamações não reguladas,Quantidade total de reclamações,Quantidade total de clientes – CCS e SCR,Quantidade de clientes – CCS,Quantidade de clientes – SCR
 2021,1º,Grupo Secundário,Conglomerado,,ABC-BRASIL (conglomerado),,2,3,4,9,26230,24698,3810
 2021,1º,Grupo Secundário,Conglomerado,,AGIBANK (conglomerado),"54,79",58,140,73,271,1058431,790848,693843
 2021,1º,Grupo Secundário,Banco/financeira,36321990,"AGORACRED S/A SOCIEDADE DE CRÉDITO, FINANCIAMENTO E INVESTIMENTO",,3,3,0,6,420692,129,420563
@@ -26,7 +26,7 @@ Ano,Trimestre,Categoria,Tipo,CNPJ IF,Instituição financeira,Índice,Quantidade
 2021,1º,Grupo Secundário,Banco/financeira,61820817,BANCO PAULISTA S.A.,,0,0,1,1,26002,7898,18366
 2021,1º,Grupo Secundário,Banco/financeira,795423,BANCO SEMEAR S.A.,,4,0,1,5,290731,2996,287950
 2021,1º,Grupo Secundário,Banco/financeira,11970623,BANCO SENFF S.A.,,8,12,2,22,77251,106,77156
-2021,1º,Grupo Secundário,Banco/financeira,7679404,BANCO TOP�ZIO S.A.,,1,4,1,6,35261,16292,21125
+2021,1º,Grupo Secundário,Banco/financeira,7679404,BANCO TOPÁZIO S.A.,,1,4,1,6,35261,16292,21125
 2021,1º,Grupo Secundário,Banco/financeira,3215790,BANCO TOYOTA DO BRASIL S.A.,,0,0,1,1,164435,15283,150113
 2021,1º,Grupo Secundário,Banco/financeira,17351180,BANCO TRIANGULO S.A.,,3,8,16,27,1953437,248674,1790932
 2021,1º,Grupo Secundário,Banco/financeira,57839805,BANCO TRICURY S.A.,,0,1,1,2,685,666,149
@@ -67,12 +67,12 @@ Ano,Trimestre,Categoria,Tipo,CNPJ IF,Instituição financeira,Índice,Quantidade
 2021,1º,Grupo Secundário,Conglomerado,,JP MORGAN CHASE (conglomerado),,0,1,0,1,3931,3914,129
 2021,1º,Grupo Secundário,Banco/financeira,11271860,"LEBES FINANCEIRA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO",,1,0,0,1,4,4,
 2021,1º,Grupo Secundário,Conglomerado,,LECCA (conglomerado),,3,3,1,7,26060,418,25643
-2021,1º,Grupo Secundário,Conglomerado,,M�XIMA (conglomerado),"568,89",57,44,18,119,100194,4444,95896
+2021,1º,Grupo Secundário,Conglomerado,,MÁXIMA (conglomerado),"568,89",57,44,18,119,100194,4444,95896
 2021,1º,Grupo Secundário,Conglomerado,,MERCANTIL DO BRASIL (conglomerado),"65,23",227,104,38,369,3479596,2945439,1733419
 2021,1º,Grupo Secundário,Conglomerado,,MERCEDES-BENZ (conglomerado),,1,0,4,5,20651,252,20473
 2021,1º,Top 10,Banco/financeira,9464032,"MIDWAY S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO","2,77",30,91,50,171,10797493,208,10797426
 2021,1º,Grupo Secundário,Conglomerado,,MODAL (conglomerado),,25,53,34,112,1064679,1064679,
-2021,1º,Grupo Secundário,Banco/financeira,74828799,NOVO BANCO CONTINENTAL S.A. - BANCO M�LTIPLO,,11,22,0,33,91784,3074,89140
+2021,1º,Grupo Secundário,Banco/financeira,74828799,NOVO BANCO CONTINENTAL S.A. - BANCO MÚLTIPLO,,11,22,0,33,91784,3074,89140
 2021,1º,Top 10,Conglomerado,,NUBANK (conglomerado),0,0,8,11,19,13774766,12716441,1936741
 2021,1º,Grupo Secundário,Conglomerado,,OMNI (conglomerado),"6,81",32,51,53,136,4695792,9119,4690354
 2021,1º,Grupo Secundário,Conglomerado,,ORIGINAL (conglomerado),"79,22",316,289,239,844,3988641,3643140,820078

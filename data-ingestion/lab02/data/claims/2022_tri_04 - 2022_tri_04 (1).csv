@@ -1,7 +1,7 @@
-Ano,Trimestre,Categoria,Tipo,CNPJ IF,Instituição financeira,Índice,Quantidade de reclamações reguladas procedentes,Quantidade de reclamações reguladas - outras,Quantidade de reclamações não reguladas,Quantidade total de reclamações,Quantidade total de clientes % CSS e SCR,Quantidade de clientes % CSS,Quantidade de clientes % SCR
+Ano,Trimestre,Categoria,Tipo,CNPJ IF,Instituição financeira,Índice,Quantidade de reclamações reguladas procedentes,Quantidade de reclamações reguladas - outras,Quantidade de reclamações não reguladas,Quantidade total de reclamações,Quantidade total de clientes – CCS e SCR,Quantidade de clientes – CCS,Quantidade de clientes – SCR
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,ABC-BRASIL (conglomerado),,11,2,4,17,55693,51667,7966
-2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,13140088,ACESSO SOLUçõeS DE PAGAMENTO S.A. - INSTITUIçãO DE PAGAMENTO,"15,52",86,81,12,179,5538591,5538546,41852
-2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,10868663,ACG INSTITUIçãO DE PAGAMENTO S.A.,,1,1,0,2,51711,51711,
+2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,13140088,ACESSO SOLUÇÕES DE PAGAMENTO S.A. - INSTITUIÇÃO DE PAGAMENTO,"15,52",86,81,12,179,5538591,5538546,41852
+2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,10868663,ACG INSTITUIÇÃO DE PAGAMENTO S.A.,,1,1,0,2,51711,51711,
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,AFINZ (conglomerado),,17,32,13,62,483968,1078,482931
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,AGIBANK (conglomerado),"112,41",224,261,60,545,1992640,1610132,1269980
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,36321990,"AGORACRED S/A SOCIEDADE DE CRÉDITO, FINANCIAMENTO E INVESTIMENTO",,2,6,0,8,549291,127,549164
@@ -30,7 +30,7 @@ Ano,Trimestre,Categoria,Tipo,CNPJ IF,Instituição financeira,Índice,Quantidade
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,795423,BANCO SEMEAR S.A.,,0,5,2,7,312515,7354,306394
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,BANCO SICOOB (conglomerado),"8,44",51,63,29,143,6040091,2687294,4066514
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,60518222,BANCO SUMITOMO MITSUI BRASILEIRO S.A.,,0,0,1,1,1180,1140,123
-2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,7679404,BANCO TOP�ZIO S.A.,,4,7,4,15,12744,11638,2727
+2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,7679404,BANCO TOPÁZIO S.A.,,4,7,4,15,12744,11638,2727
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,BANCO TOYOTA DO BRASIL S.A. (conglomerado),,0,4,6,10,155246,15260,140846
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,17351180,BANCO TRIANGULO S.A.,,7,18,8,33,1744811,687146,1404832
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,57839805,BANCO TRICURY S.A.,,0,0,1,1,972,958,152
@@ -58,41 +58,41 @@ Ano,Trimestre,Categoria,Tipo,CNPJ IF,Instituição financeira,Índice,Quantidade
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,CCB (conglomerado),,5,35,2,42,153165,3352,150213
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,13935893,CELCOIN INSTITUICAO DE PAGAMENTO S.A.,,18,4,3,25,0,0,0
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,26225776,"CENTROCRED S.A. CRÉDITO, FINANCIAMENTO E INVESTIMENTOS",,0,1,0,1,110120,72,110048
-2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,1027058,CIELO S.A. - INSTITUIçãO DE PAGAMENTO,,14,16,38,68,213990,213874,116
+2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,1027058,CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO,,14,16,38,68,213990,213874,116
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,CITIBANK (conglomerado),,2,9,8,19,18935,18057,1780
-2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,18189547,CLOUDWALK INSTITUIçãO DE PAGAMENTO E SERVICOS LTDA,,7,9,14,30,0,0,0
+2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,18189547,CLOUDWALK INSTITUIÇÃO DE PAGAMENTO E SERVICOS LTDA,,7,9,14,30,0,0,0
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,COBUCCIO (conglomerado),,16,9,44,69,752805,6695,751131
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,COLOMBO (conglomerado),,1,3,0,4,322448,61,322405
-2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,5938780,COOPER CARD INSTITUIçãO DE PAGAMENTO LTDA.,,1,1,0,2,392951,131098,287743
+2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,5938780,COOPER CARD INSTITUIÇÃO DE PAGAMENTO LTDA.,,1,1,0,2,392951,131098,287743
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,CREDSYSTEM (conglomerado),,5,14,15,34,4235510,0,4235510
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,CREFISA (conglomerado),"23,81",84,145,83,312,3526710,2023560,1923733
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,DAYCOVAL (conglomerado),"103,22",180,537,79,796,1743806,275309,1527166
-2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,13370835,DOCK INSTITUIçãO DE PAGAMENTO S.A.,,20,11,3,34,2013085,2013085,
+2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,13370835,DOCK INSTITUIÇÃO DE PAGAMENTO S.A.,,20,11,3,34,2013085,2013085,
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,21018182,EBANX INSTITUICAO DE PAGAMENTOS LTDA.,,27,35,5,67,559116,559114,2
-2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,714671,EWALLY INSTITUIçãO DE PAGAMENTO S.A.,,2,2,1,5,0,0,0
-2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,39321657,FACEBOOK INSTITUIçãO DE PAGAMENTO DO BRASIL LTDA.,,1,1,0,2,0,0,0
+2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,714671,EWALLY INSTITUIÇÃO DE PAGAMENTO S.A.,,2,2,1,5,0,0,0
+2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,39321657,FACEBOOK INSTITUIÇÃO DE PAGAMENTO DO BRASIL LTDA.,,1,1,0,2,0,0,0
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,15581638,FACTA FINANCEIRA S.A. - CRÉDITO FINANCIAMENTO E INVESTIMENTO,"396,37",352,257,67,676,888045,686,887367
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,36583700,"FC FINANCEIRA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO",,15,4,3,22,21602,,21602
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,411939,"FINAMAX S.A. - CREDITO, FINANCIAMENTO E INVESTIMENTO",,1,1,1,3,83736,1578,82190
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,FINAXIS (conglomerado),,0,0,1,1,3907,3907,
-2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,4962772,FISERV DO BRASIL  INSTITUIçãO DE PAGAMENTO LTDA,,0,2,0,2,93,,93
-2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,13203354,FITBANK INSTITUIçãO DE PAGAMENTOS ELETRÍnICOS S.A.,,4,1,0,5,29083,29083,
+2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,4962772,FISERV DO BRASIL  INSTITUIÇÃO DE PAGAMENTO LTDA,,0,2,0,2,93,,93
+2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,13203354,FITBANK INSTITUIÇÃO DE PAGAMENTOS ELETRÔNICOS S.A.,,4,1,0,5,29083,29083,
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,23114447,FLAGSHIP INSTITUICAO DE PAGAMENTOS LTDA,,1,6,0,7,73806,73806,
-2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,2732968,FORTBRASIL INSTITUIçãO DE PAGAMENTO S/A,,4,6,6,16,624574,,624574
+2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,2732968,FORTBRASIL INSTITUIÇÃO DE PAGAMENTO S/A,,4,6,6,16,624574,,624574
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,GAZIN (conglomerado),,0,1,0,1,52007,450,51636
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,GENIAL (conglomerado),,9,4,0,13,734186,734183,412
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,GERENCIANET (conglomerado),,8,13,2,23,345269,345030,15425
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,GM (conglomerado),,1,6,8,15,221613,474,221222
-2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,22177858,GRANITO INSTITUIçãO DE PAGAMENTO S.A.,,3,0,2,5,60,,60
+2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,22177858,GRANITO INSTITUIÇÃO DE PAGAMENTO S.A.,,3,0,2,5,60,,60
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,GRUPO BONSUCESSO - BS2 (conglomerado),"375,26",122,72,21,215,325107,316674,11072
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,GRUPO ZEMA (conglomerado),,1,3,13,17,537686,27881,518166
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,HERVAL - HS (conglomerado),,1,9,1,11,218105,803,217505
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,HONDA (conglomerado),,6,6,9,21,358758,146,358703
-2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,13884775,HUB INSTITUIçãO DE PAGAMENTO S.A.,"3,26",36,65,1,102,11021807,11021797,78
+2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,13884775,HUB INSTITUIÇÃO DE PAGAMENTO S.A.,"3,26",36,65,1,102,11021807,11021797,78
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,INDUSTRIAL DO BRASIL (conglomerado),,4,14,1,19,69669,4675,65849
 2022,4º,"Top 15 - Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,INTER (conglomerado),"36,9",857,615,239,1711,23219194,23080181,3502534
 2022,4º,"Top 15 - Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,ITAU (conglomerado),"15,26",1492,3154,1463,6109,97712980,79820279,54522214
-2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,15111975,IUGU INSTITUIçãO DE PAGAMENTO S.A.,,8,7,1,16,2365,,2365
+2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,15111975,IUGU INSTITUIÇÃO DE PAGAMENTO S.A.,,8,7,1,16,2365,,2365
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,4230630,"JBCRED S.A. SOCIEDADE DE CREDITO, FINANCIAMENTO E INVESTIMENTO",,0,5,5,10,60391,,60391
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,JP MORGAN CHASE (conglomerado),,0,1,0,1,0,0,0
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,6040559,"KREDILIG S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO",,1,2,1,4,319580,7,319576
@@ -112,16 +112,16 @@ Ano,Trimestre,Categoria,Tipo,CNPJ IF,Instituição financeira,Índice,Quantidade
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,OMNI (conglomerado),,22,53,38,113,4408458,268090,4175298
 2022,4º,"Top 15 - Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,ORIGINAL (conglomerado),"14,35",689,876,223,1788,47994411,47843568,3801245
 2022,4º,"Top 15 - Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,PAGBANK-PAGSEGURO (conglomerado),"23,52",652,670,132,1454,27716605,27603910,565836
-2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,3816413,PAGUEVELOZ INSTITUIçãO DE PAGAMENTO LTDA.,,8,9,0,17,0,0,0
-2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,PARAN� BANCO (conglomerado),,22,123,23,168,546784,11439,535755
+2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,3816413,PAGUEVELOZ INSTITUIÇÃO DE PAGAMENTO LTDA.,,8,9,0,17,0,0,0
+2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,PARANÁ BANCO (conglomerado),,22,123,23,168,546784,11439,535755
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,3311443,"PARATI - CREDITO, FINANCIAMENTO E INVESTIMENTO S.A.",,27,53,8,88,95648,93466,2897
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,10878448,PAYPAL DO BRASIL SERVICOS DE PAGAMENTOS LTDA,"189,44",34,40,6,80,179473,179471,3
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,43180355,"PEFISA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO","11,43",106,49,21,176,9273360,8999432,3045175
-2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,17079937,PINBANK BRASIL INSTITUIçãO DE PAGAMENTO S.A.,,1,0,0,1,0,0,0
+2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,17079937,PINBANK BRASIL INSTITUIÇÃO DE PAGAMENTO S.A.,,1,0,0,1,0,0,0
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,PINE (conglomerado),,0,1,2,3,119595,11377,108983
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,PORTO SEGURO (conglomerado),"59,1",177,132,99,408,2994558,13928,2994386
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,1800019,"PORTOCRED S.A. - CREDITO, FINANCIAMENTO E INVESTIMENTO",,12,11,19,42,118063,2234,115830
-2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,1722480,QUERO-QUERO VERDECARD INSTITUIçãO DE PAGAMENTO S.A.,,0,8,3,11,580387,222463,395988
+2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,1722480,QUERO-QUERO VERDECARD INSTITUIÇÃO DE PAGAMENTO S.A.,,0,8,3,11,580387,222463,395988
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,27351731,"REALIZE CRÉDITO, FINANCIAMENTO E INVESTIMENTO S.A.",,13,53,27,93,5561332,55482,5559674
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,RECARGAPAY (conglomerado),"7,01",53,41,6,100,7559390,7557722,27113
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,RENDIMENTO (conglomerado),,2,13,3,18,259475,255724,6895
@@ -132,18 +132,18 @@ Ano,Trimestre,Categoria,Tipo,CNPJ IF,Instituição financeira,Índice,Quantidade
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,122327,"SANTINVEST S.A. - CREDITO, FINANCIAMENTO E INVESTIMENTOS",,0,5,1,6,11724,439,11285
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,SENFF (conglomerado),,5,10,7,22,474751,185243,338115
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,5503849,"SF3 CRÉDITO, FINANCIAMENTO E INVESTIMENTO S.A.",,0,0,1,1,19076,1299,17780
-2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,38372267,SHPP BRASIL INSTITUIçãO DE PAGAMENTO E SERVIÇOS DE PAGAMENTOS LTDA.,,21,17,38,76,0,0,0
+2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,38372267,SHPP BRASIL INSTITUIÇÃO DE PAGAMENTO E SERVIÇOS DE PAGAMENTOS LTDA.,,21,17,38,76,0,0,0
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,SICREDI (conglomerado),,0,0,1,1,7410928,7388472,219552
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,SINOSSERRA (conglomerado),,2,1,0,3,9868,126,9753
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,15173776,SOCIAL BANK BANCO MÚLTIPLO S/A,,7,0,2,9,1258,1250,11
-2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,23757411,SOCIAL BANK INSTITUIçãO DE PAGAMENTO S.A,,4,1,0,5,301235,301235,
+2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,23757411,SOCIAL BANK INSTITUIÇÃO DE PAGAMENTO S.A,,4,1,0,5,301235,301235,
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,3881423,"SOCINAL S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO",,27,14,15,56,2471,443,2028
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,SOFISA (conglomerado),,23,30,14,67,672226,661744,58375
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,17359351,STARA FINANCEIRA S.A. - CRÉDITO FINANCIAMENTO E INVESTIMENTO,,0,0,1,1,771,25,746
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,STONE (conglomerado),"14,82",42,111,7,160,2832151,2832054,99
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,22121209,STRIPE BRASIL SOLUCOES DE PAGAMENTO INSTITUICAO DE PAGAMENTO LTDA,,0,2,2,4,74,,74
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,SUMUP (conglomerado),,10,5,5,20,113,0,113
-2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,30980539,U4C INSTITUIçãO DE PAGAMENTO S.A.,,3,4,0,7,0,0,0
+2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,30980539,U4C INSTITUIÇÃO DE PAGAMENTO S.A.,,3,4,0,7,0,0,0
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Banco/financeira,5192316,"VIA CERTA FINANCIADORA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTOS",,2,3,3,8,467431,17124,455695
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,VOITER (conglomerado),,1,1,1,3,265635,15548,250495
 2022,4º,"Demais Bancos, Financeiras e Instituições de Pagamento",Conglomerado,,VOLKSWAGEN (conglomerado),,14,25,45,84,325412,288,325256

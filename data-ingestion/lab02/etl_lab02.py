@@ -20,6 +20,7 @@ def transform(bank_df: polars.DataFrame, employee_df: polars.DataFrame, claims_d
     ]:
         bank_df = bank_df.with_columns(string_replacement_action)
     
+    # bank_df = bank_df.unique(subset=["CNPJ"])
 
     # ************************************************************************************************ #
     #                                  Claims Data Transformation                                      #
@@ -30,15 +31,22 @@ def transform(bank_df: polars.DataFrame, employee_df: polars.DataFrame, claims_d
     ]:
         claims_df = claims_df.rename(rename_column_action)
     
-    claims_df = claims_df.with_columns(
-        polars.col("Nome").str.replace_all("(conglomerado)", "")
-    )
+    for replace_column_action in [
+        polars.col("Nome").str.replace_all("(conglomerado)", ""),
+        polars.col("Nome").str.replace_all("(\.+|\/+|\-+)", ""), # remove the special characters
+        polars.col("Nome").str.replace_all("SA", ""), # remove the word SA from the name
+        polars.col("Nome").str.rstrip() # remove the trailing spaces in the end of the string
+    ]:
+        claims_df = claims_df.with_columns(replace_column_action)
+    
+    # claims_df = claims_df.unique(subset=["CNPJ"])
 
     # ************************************************************************************************ #
     #                               Employees Data Transformation                                      #
     # ************************************************************************************************ #
     for string_replacement_action in [
         polars.col("Nome").str.replace_all("(\.+|\/+|\-+)", ""),
+        polars.col("Nome").str.replace_all("SA", ""), # remove the word SA from the name
     ]:
         employee_df = employee_df.with_columns(string_replacement_action)
 
@@ -47,9 +55,9 @@ def transform(bank_df: polars.DataFrame, employee_df: polars.DataFrame, claims_d
     # ************************************************************************************************ #
 
     # make join of employee_df and claims_df using the CNPJ and Nome columns
-    bank_claims_df = bank_df.join(claims_df, on=["Nome", "CNPJ"], how="left")
+    bank_claims_df = claims_df.join(bank_df, on=["Nome", "CNPJ"], how="inner")
     # make join of bank_claims_df and employee_df using the CNPJ and Nome columns
-    bank_claims_employee_df = bank_claims_df.join(employee_df, on=["Nome", "Segmento", "CNPJ"], how="left")
+    bank_claims_employee_df = bank_claims_df.join(employee_df, on=["Nome"], how="left")
 
     bank_claims_employee_df = bank_claims_employee_df.select([
         "Nome", 
@@ -58,7 +66,7 @@ def transform(bank_df: polars.DataFrame, employee_df: polars.DataFrame, claims_d
         "Índice", # Indice de reclamações 
         "Quantidade total de reclamações", # Quantidade de reclamações
         "Recomendam para outras pessoas(%)", # Indice de satisfação dos funcionários dos bancos
-      #  "Satisfação com salários e benefícios(%)", # Índice de satisfação com salários dos funcionários dos bancos.
+        # "Satisfação com salários e benefícios(%)", # Índice de satisfação com salários dos funcionários dos bancos.
     ])
 
     for rename_column_action in [
@@ -68,8 +76,11 @@ def transform(bank_df: polars.DataFrame, employee_df: polars.DataFrame, claims_d
     ]:
         bank_claims_employee_df = bank_claims_employee_df.rename(rename_column_action)
 
+    # remove duplicated lines by the columns Nome and CNPJ
+    bank_claims_employee_df = bank_claims_employee_df.unique(subset=["CNPJ"])
+
     breakpoint()
-    
+    # Final Table must contain the following columns:
     # Nome do Banco
     # CNPJ
     # Classificação do Banco
@@ -78,12 +89,6 @@ def transform(bank_df: polars.DataFrame, employee_df: polars.DataFrame, claims_d
     # Quantidade de reclamações
     # Índice de satisfação dos funcionários dos bancos
     # Índice de satisfação com salários dos funcionários dos bancos.
-
-    
-    # employee_claims_df = employee_claims_df.rename({"Quantidade total de clientes % CSS e SCR": "Quantidade Clientes dos Bancos"})
-    # print(employee_claims_df.schema.keys())
-    # # employee_claims_df = employee_claims_df.select(["Nome", "CPF", "Categoria"])
-    # print(employee_claims_df.head(10))
 
 
 def extract_data(path_name: str, separator: str) -> polars.DataFrame:
